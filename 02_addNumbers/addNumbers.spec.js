@@ -1,7 +1,12 @@
-const addNumbers = require('./addNumbers')
+const addNumbers = require("./addNumbers.js")
 
-describe('addNumbers', () => {
-  test('adds the numbers together', () => {
-    expect(addNumbers()).toEqual(2);
-  });
+
+describe("addNumbers", () => 
+{
+    test("adds the numbers together", 
+    () => 
+    {
+      expect(addNumbers().toEqual(2));
+    }
+  );
 });
